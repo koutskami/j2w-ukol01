@@ -2,58 +2,106 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>J2U1-Medailonek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!--Hlavička stránky-->
-    <h1>Medailonek</h1>
+    <header class="hlavicka">
+        <h1>Michaela Koutská</h1>
+    </header>
 
+    <!--menu-->
+    <ul class="menu">
+        <li><a href="#omne">O mně</a> </li>
+        <li><a href="#fotogalerie">Fotogalerie</a> </li>
+        <li><a href="#necodalsiho">Něco dalšího</a> </li>
+        <li><a href="#kontakt">Kontakt</a> </li>
+    </ul>
 
     <!--Sekce O mně-->
-    <h2>O mně</h2>
+    <section class="omne" id="omne">
+        <h2>O mně</h2>
 
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Nullam dapibus fermentum ipsum.
-        Nulla non arcu lacinia neque faucibus fringilla. Praesent id justo in neque elementum ultrices. Pellentesque habitant
-        morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <img class="foto-omne" src="obrazky/profilepic.jpg" alt="Profilové foto Michaely.">
 
-    <p>Etiam posuere lacus quis dolor. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. In enim
-        a arcu imperdiet malesuada. Nulla non lectus sed nisl molestie malesuada. Proin mattis lacinia justo. Integer tempor.
-        Aenean fermentum risus id tortor.</p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam commodo dui eget wisi. Nullam dapibus fermentum ipsum.
+            Nulla non arcu lacinia neque faucibus fringilla. Praesent id justo in neque elementum ultrices. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+
+        <p>Etiam posuere lacus quis dolor. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. In enim
+            a arcu imperdiet malesuada. Nulla non lectus sed nisl molestie malesuada. Proin mattis lacinia justo. Integer tempor.
+            Aenean fermentum risus id tortor.</p>
+    </section>
 
 
     <!--Sekce Fotogalerie-->
-    <h2>Fotogalerie</h2>
+    <section class="fotogalerie" id="fotogalerie">
+        <h2>Fotogalerie</h2>
 
-    <p>Fusce tellus odio, dapibus id fermentum quis, suscipit id erat. Aliquam id dolor. Nulla accumsan, elit sit amet varius
-        semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Nullam lectus justo, vulputate eget mollis sed,
-        tempor sed magna. Maecenas lorem. Fusce aliquam vestibulum ipsum. Nam sed tellus id magna elementum tincidunt.
-        Etiam sapien elit, consequat eget, tristique non, venenatis quis, ante. In sem justo, commodo ut, suscipit at,
-        pharetra vitae, orci. Suspendisse nisl. Fusce tellus.</p>
+        <p>Mám ráda pivo, výběrovou kávu, dobré jídlo, cestování, učení se nových věcí, (nejen) fantasy literaturu a obecně
+            kulturu všeho druhu.</p>
+
+        <p>Nulla non lectus sed nisl molestie malesuada. Nullam sit amet magna in magna gravida vehicula. Nulla non lectus
+            sed nisl molestie malesuada. Nullam eget nisl. Etiam posuere lacus quis dolor. Cras elementum. Nullam dapibus fermentum ipsum.
+            Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam.</p>
+
+        <img src="obrazky/gills.jpg" alt="Ruka drží cappuccino s tulipánem z mléčné pěny v šálku s logem Gill's coffee. Na pozadí jsou černobílé balíčky s kávou.">
+        <img src="obrazky/cestovani1.jpg" alt="Michaela pózuje nad pařížským kanálem jako Marilyn Monroe, které vítr nadzvedává sukni.">
+        <img src="obrazky/jidlo1.jpg" alt="Michaela si poprvé v životě pochutnává na churros ve španělské kavárně.">
+
+        <img src="obrazky/vylet1.jpg" alt="Selfie Michaely na výletu ve skalách. V pozadí je vidět postavička jejího manžela, který je na protější skále.">
+        <img src="obrazky/promoce.jpg" alt="Michaela stojí s modrými deskami vedle svého manžela. V pozadí je busta T. G. Masaryka. Foto je foceno v interiéru Právnické fakulty Masarykovy univerzity v den Michaeliných promocí.">
+        <img src="obrazky/pivo1.jpg" alt="Michaela ve svatebních šatech se usmívá, v jedné ruce drží téměř dopitý půllitr s pivem, v druhé ruce má svatební kytici.">
+
+        <img src="obrazky/literatura1.jpg" alt="Michaela stojí v průchodu, který vede na Ústav pro českou literaturu AV ČR v Praze. Drží v ruce knihu, jedná se o výtisk sborníku MLOK 2021.">
+        <img src="obrazky/kava2.jpg" alt="Foto kelímku s kávou, na němž stojí psáno 'Miluji kávu. Dává mi iluzi, že jsem vzhůru.'">
+        <img src="obrazky/umeni1.jpg" alt="Michaela ukazuje na obraz v galerii.">
+
+    </section>
 
 
     <!--Sekce Něco dalšího-->
-    <h2>Něco dalšího</h2>
+    <section class="necodalsiho" id="necodalsiho">
+        <h2>Něco dalšího</h2>
 
-    <p>Mauris elementum mauris vitae tortor. Proin in tellus sit amet nibh dignissim sagittis. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas. Duis condimentum augue id magna semper rutrum.
-        Nullam faucibus mi quis velit. Aliquam erat volutpat. Duis condimentum augue id magna semper rutrum. In rutrum.
-        Morbi scelerisque luctus velit. Nam quis nulla. Aliquam erat volutpat.</p>
+        <img class="foto-necodalsiho" src="obrazky/sirotcihradek.jpg" alt="Foto Michaely sedící na skále na zřícenině Sirotčí hrádek s výhledem do krajiny.">
+
+        <p>Mauris elementum mauris vitae tortor. Proin in tellus sit amet nibh dignissim sagittis. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Duis condimentum augue id magna semper rutrum.
+            Nullam faucibus mi quis velit. Aliquam erat volutpat. Duis condimentum augue id magna semper rutrum. In rutrum.
+            Morbi scelerisque luctus velit. Nam quis nulla. Aliquam erat volutpat.</p>
+    </section>
 
 
     <!--Sekce Kontakt-->
-    <h2>Kontakt</h2>
-    <p>Aliquam ornare wisi eu metus. Integer in sapien. Suspendisse nisl. In convallis. Sed ac dolor sit amet purus malesuada
-        congue. Phasellus faucibus molestie nisl. Fusce aliquam vestibulum ipsum. Proin mattis lacinia justo. Fusce wisi.
-        Duis viverra diam non justo. Maecenas sollicitudin.</p>
+    <section class="kontakt" id="kontakt">
+        <h2>Kontakt</h2>
 
-    <p>
-        <a href="mailto:koutskami@gmail.com">E-mail</a><br>
-        <a href="https://www.linkedin.com/in/michaela-koutsk%C3%A1-a8889b113/">LinkedIn</a><br>
-        <a href="https://github.com/koutskami/">GitHub</a><br>
-    </p>
+        <img class="foto-kontakt" src="obrazky/eiffel.jpg" alt="Foto usmívající se Michaely s výhledem z Eiffelovy věže.">
+
+        <p>Aliquam ornare wisi eu metus. Integer in sapien. Suspendisse nisl. In convallis. Sed ac dolor sit amet purus malesuada
+            congue. Phasellus faucibus molestie nisl. Fusce aliquam vestibulum ipsum. Proin mattis lacinia justo. Fusce wisi.
+            Duis viverra diam non justo. Maecenas sollicitudin.</p>
+
+        <p>
+            <a href="mailto:koutskami@gmail.com">E-mail</a><br>
+            <a href="https://www.linkedin.com/in/michaela-koutsk%C3%A1-a8889b113/">LinkedIn</a><br>
+            <a href="https://github.com/koutskami/">GitHub</a><br>
+        </p>
+    </section>
 
 
     <!--Patička-->
-    <p>© 2024, Michaela Koutská</p>
+    <footer class="paticka">
+        <p>© 2024, Michaela Koutská</p>
+    </footer>
+
 </body>
 </html>

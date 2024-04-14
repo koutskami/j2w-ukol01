@@ -1,0 +1,134 @@
+/* základní stylování stránky */
+body {
+    color: #021859;
+    background-color: #F4F6FE;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* stylování nadpisů aj. */
+h2,
+h3,
+a {
+    color: #03258C;
+}
+
+h1,
+h2,
+h3{
+    font-family: "IBM Plex Serif", serif;
+    font-style: italic;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    color: #F4F6FE;
+    margin: 0;
+    text-shadow: 0 3px 10px #03258C;
+}
+
+h2{
+    font-size: 48px;
+    margin-top: 0;
+}
+
+h3{
+    font-size: 24px;
+}
+
+a {
+    font-style: italic;
+}
+
+
+/* stylování hlavičky */
+.hlavicka {
+    padding: 150px 30px;
+    /*Photo by Kseniya Lapteva on Unsplash: https://unsplash.com/photos/blue-textile-with-white-line-lIuhoqkFpmQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"*/
+    background-image: url("obrazky/kseniya-lapteva-lIuhoqkFpmQ-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* stylování sekcí */
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.fotogalerie,
+.kontakt {
+    background-color: #CFDCF5;
+}
+
+.paticka {
+    background-color: #03258C;
+    color: #CFDCF5;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* stylování obrázků */
+.foto-omne {
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.fotogalerie img{
+    width: 32%;
+    border: 2px solid #03258C;
+    border-radius: 10px;
+}
+
+.foto-necodalsiho {
+    width: 30%;
+    border-radius: 0 50px 50px 50px;
+    float: right;
+    margin: 0 0 30px 30px;
+}
+
+.foto-kontakt {
+    width: 20%;
+    border-radius: 50px 0 50px 50px;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+
+/* stylování menu */
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #03258C;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: #F4F6FE;
+    text-decoration: none;
+    font-style: normal;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active{
+    background-color: #0455BF;
+}
